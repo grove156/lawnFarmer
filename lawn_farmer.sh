@@ -2,9 +2,9 @@
 
 #github uploader
 
-git add .
+git add lawn_farmer.log
 git commit -m"$(date)"
-git push origin main
+git push -u origin master
 
 echo "============================================================" > lawn_farmer.log
 echo "" > lawn_farmer.log
