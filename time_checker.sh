@@ -1,5 +1,4 @@
 #!/bin/bash
 
-date > lawn_farmer.log
-echo "------------------------------------------------------------" > lawn_farmer.log
-echo "============================================================" > lawn_farmer.log
+echo "commit occured on $(date)" >> lawn_farmer.log
+
