@@ -1,6 +1,6 @@
 #!/bin/bash
 
-date >> lawn_farmer.sh
+echo "commit occured on $(date)" >> lawn_farmer.log
 
 git add .
 git commit -m"$(date)"
